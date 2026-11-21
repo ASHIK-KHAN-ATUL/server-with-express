@@ -9,7 +9,7 @@ const loginUser = async (req: Request, res: Response) => {
 
         res.status(201).json({
             success: true,
-            message: "Profile Created Successfully",
+            message: "Login Successfully",
             data: result
         })
     } catch (error: any) {
